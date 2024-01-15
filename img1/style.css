@@ -1,0 +1,158 @@
+body, h1, h2, h3, h4, h5, h6, ul, li{
+    padding: 0px;
+    margin: 0px;
+}
+p{
+    font-size: 20px;
+}
+
+/* thuoc tinh dung chung */
+
+.bg-main{
+    background: rgb(85,27,198);
+    background: linear-gradient(90deg, rgba(85,27,198,1) 0%, rgba(103,25,196,1) 35%, rgba(121,24,197,1) 100%);
+}
+.box{
+    padding: 0px 0px;
+}
+
+/* xac dinh cac class su dung de tao kich thuoc */
+
+@media screen and (min-width: 768px){
+    .w20{width: 20%;}
+    .w25{width: 25%;}
+    .w33{width: 33.3%;}
+    .w30{width: 30%;}
+    .w40{width: 40%;}
+    .w50{width: 50%;}
+    .w60{width: 60%;}
+    .w70{width: 70%;}
+    .container{width: 1200px; margin: 0px auto;}
+    .left{float: left;}
+    .right{float: right;}
+    .clear{clear: both;}
+}
+.text-center{
+    text-align: center;
+}
+.text-left{
+    text-align: left;
+}
+.text-right{
+    text-align: right;
+}
+#logo img{
+    padding-left: 70px;
+    padding-bottom: 25px;
+    margin-top: 25px;
+    width: 80px;
+}
+div#logo {
+    margin-left: -210px;
+}
+.nav ul li{
+    list-style-type: none;
+    float: left;
+    padding: 10px 15px;
+}
+.nav ul li a{
+    color: black;
+    font-size: 25px;
+    font-weight: 500;
+    text-decoration: none;
+}
+.nav ul li:hover a{
+    color: white;
+}
+
+.nav ul{
+    margin-top: 20px;
+}
+/*DORAEMON*/
+img {
+    padding-left: 0px;
+    margin-top: 50px;
+    width: 550px;
+}
+.box-content-text {
+    padding: 100px;
+}
+h1.name {
+    text-align: center;
+    font-size:50px;
+}
+h1.name3 {
+    text-align: center;
+}
+h2.name2 {
+    text-align: center;
+    font-size: 50px;
+}
+h2.name3 {
+    text-align: center;
+    font-size: 50px;
+}
+.comment {
+    margin: 100px;
+    font-size:20px;
+}
+ul.\31 {
+    margin: 10px;
+}
+ul.\32 {
+    margin: 10px;
+}
+ul.\33 {
+    margin: 10px;
+}
+.box-img1 {
+    margin-left: 150px;
+}
+.img2 {
+    margin-left: -150px;
+}
+.cmt {
+    margin: 100px;
+    font-size: 20px;
+    padding: 30px;
+}
+h5.cmt1 {
+    margin: 10px;
+    font-size: 30px;
+    text-align: center;
+}
+h5.cmt2 {
+    margin: 10px;
+    font-size: 30px;
+    text-align: center;
+}
+h6 {
+    padding: 10px;
+    font-size: 20px;
+}
+h1.momo {
+    margin: 50px;
+}
+ul.icon {
+left: 65px;
+font-size: 20px;
+}
+ul.CSS {
+    margin-left: 162px;
+}
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .image-container {
+    display: flex; /* Sắp xếp ảnh theo chiều ngang */
+    flex-wrap: wrap; /* Đặt hàng xuống khi không còn không gian */
+    justify-content: space-around; /* Canh giữa các ảnh */
+  }
+  
+  .image-container img {
+    width: 200px; /* Đặt chiều rộng ảnh */
+    height: auto; /* Chiều cao tự động tính theo tỉ lệ */
+    margin: 10px; /* Tạo khoảng cách giữa các ảnh */
+}
